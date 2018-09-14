@@ -28,6 +28,7 @@ public class App
     }
 
     private static Value runScript(String script, Context context) {
+
         return context.eval("js", script);
     }
 }
